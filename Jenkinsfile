@@ -12,7 +12,7 @@ pipeline {
     stage('Building Docker Image') {
       steps{
         script {
-          sh "docker build -t mohan/new-project:$BUILD_NUMBER ."
+          sh "docker build -t mohanthangam/new-project:$BUILD_NUMBER ."
         }
       }
     }
